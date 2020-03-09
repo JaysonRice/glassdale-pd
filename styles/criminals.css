@@ -1,0 +1,16 @@
+.criminalsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.criminal__card {
+    border: 2px rgb(71, 71, 71) solid;
+    background-color: whitesmoke;
+    padding: 1em;
+    margin: 1rem;
+    width: 17rem;
+    height: 8rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    
+}
