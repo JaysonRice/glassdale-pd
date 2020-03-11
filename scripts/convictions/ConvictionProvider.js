@@ -1,19 +1,19 @@
-let crimes = []
+let convictions = []
 
-export const useCrimes = () => {
-    return crimes.slice()
+export const useConvictions = () => {
+    return convictions.slice()
 }
 
-export const getCrimes = () => {
+export const getConvictions = () => {
     // Request the data
     return fetch("https://criminals.glassdale.us/crimes")
     // Convert the JSON string response to a JavaScript data structure (object or array)
         .then(response => response.json())
         // Do something with the data
         .then(
-            parsedCrimes => {
-                console.table(parsedCrimes)
-                crimes = parsedCrimes
+            parsedConvictions => {
+                console.table(parsedConvictions)
+                convictions = parsedConvictions
             }
         )
 }
