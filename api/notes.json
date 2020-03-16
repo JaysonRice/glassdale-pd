@@ -1,3 +1,16 @@
 {
-    "notes": []
+  "notes": [
+    {
+      "id": 1,
+      "noteText": "This person seems suspicious",
+      "timestamp": 1584382255712,
+      "criminal": "Taurean Bins"
+    },
+    {
+      "noteText": "Doesn't like spaghetti",
+      "criminal": "Nathanael Champlin",
+      "timestamp": 1584388211493,
+      "id": 2
+    }
+  ]
 }
