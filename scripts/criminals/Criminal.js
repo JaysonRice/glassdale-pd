@@ -1,13 +1,17 @@
-const Criminal = (criminal) => {
+export const Criminal = (criminalObject) => {
     return `
-    <div class="criminal__card">
-        <h3>${criminal.name}</h3>
-        <div>Age: ${criminal.age}</div>
-        <div>Crime: ${criminal.conviction}</div>
-        <div>Term Start: ${new Date(criminal.incarceration.start).toLocaleDateString('en-US')}</div>
-        <div>Term End: ${new Date(criminal.incarceration.end).toLocaleDateString('en-US')}</div>
+    <div class="criminal">
+        <h4>${criminalObject.name}</h4>
+        <div class="criminal__details">
+            <p>Convicted for ${criminalObject.conviction}</p>
+            <p>Arrested by ${criminalObject.arrestingOfficer}</p>
+            <p>Incarcerated between:
+                ${new Date(criminalObject.incarceration.start).toLocaleDateString()} and
+                ${new Date(criminalObject.incarceration.end).toLocaleDateString()}
+            </p>
+            <p>Age: ${criminalObject.age}</p>
+            <button id="associates--${criminalObject.id}">Show Associates</button>
+        </div>
     </div>
     `
 }
-
-export default Criminal
