@@ -29,7 +29,7 @@ const ConvictionSelect = () => {
         */
         contentTarget.innerHTML = `
             <select class="dropdown" id="crimeSelect">
-                <option value="0">Please select a crime...</option>
+                <option class="crimeOption" value="0">Please select a crime...</option>
                 ${
                     convictionsCollection.map(singleConviction => {
                         return `<option>${singleConviction.name}</option>`

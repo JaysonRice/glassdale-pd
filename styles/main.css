@@ -1,9 +1,10 @@
 @import "./criminals.css";
 @import "./filter.css";
 @import "./notes.css";
+@import "./dialogs.css";
 
 body {
-    background-color: beige;
+    background-color: #007193;
 }
 
 .container {

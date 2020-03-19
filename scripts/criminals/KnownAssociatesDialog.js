@@ -44,11 +44,13 @@ export const KnownAssociatesDialog = (criminalObject) => {
                     (currentAssociate) => {
                         return `<div>Name: ${currentAssociate.name}</div>
                         <div>Alibi: ${currentAssociate.alibi}</div>
-                        <button class='button--close'>Close</button>`
+                        <div class="associateBreak"></div>
+                        `
 
                     }
                 ).join("")
             }
+            <button class='button--close'>Close</button>
         </dialog>
     `
 }

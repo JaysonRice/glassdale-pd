@@ -1,0 +1,13 @@
+#associateDialog {
+    text-align: center;
+}
+
+.button--close {
+    border: black 2px solid;
+    padding: 1rem 5rem;
+}
+
+.associateBreak {
+    margin: 0.4rem 0;
+    border: dashed 1px black;
+}

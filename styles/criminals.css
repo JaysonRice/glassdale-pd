@@ -5,10 +5,23 @@
 }
 
 .criminal {
-    border: 2px rgb(71, 71, 71) solid;
-    background-color: whitesmoke;
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/05/09/42/paper-753508_1280.jpg);
+    border-radius: 10px 50px 10px 10px;
     padding: 0.5rem;
     margin: 0.5rem;
-    flex-basis: 30%;
+    flex-basis: 27%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.criminal__name {
+    margin: .5rem 0rem 0.5rem .5rem;
+}
+
+.criminal__details p {
+    margin: .5rem ;
+}
+
+.associateBreak {
+    margin: 0.4rem 0;
+    /* border: dashed 1px navy; */
 }
