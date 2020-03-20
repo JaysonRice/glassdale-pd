@@ -2,10 +2,10 @@
     border: rgb(0, 113, 147) 5px solid;
     border-radius: .3rem;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    text-align: center;
 }
 
 .associateDetails {
-    text-align: center;
     font-family: 'Baloo 2', cursive;
 }
 
