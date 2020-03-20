@@ -4,7 +4,7 @@
 @import "./dialogs.css";
 
 body {
-    background-color: #007193;
+    background-color: rgb(0, 113, 147);
 }
 
 .container {
@@ -17,4 +17,12 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+h1, h2, h3, h4 , h5 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: 'Baloo 2', cursive;
 }

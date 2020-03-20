@@ -10,7 +10,10 @@ export const Criminal = (criminalObject) => {
                 ${new Date(criminalObject.incarceration.end).toLocaleDateString()}
             </p>
             <p>Age: ${criminalObject.age}</p>
-            <button id="associates--${criminalObject.id}">Show Associates</button>
+            <div class="informationBreak"></div>
+            <div class="buttonContainer">
+            <button class="associates--button" id="associates--${criminalObject.id}">Show Associates</button>
+            </div>
         </div>
     </div>
     `
