@@ -38,13 +38,14 @@ contentTarget.addEventListener("click", clickEvent => {
 const render = () => {
     contentTarget.classList.add("invisible")
     contentTarget.innerHTML = `
-        <fieldset>
-            <label for="noteText">Note:</label>
-            <input type="text" id="noteText">
-        </fieldset>
-        <fieldset>
+    
+        <fieldset class="noteForm__criminal">
             <label for="criminal">Criminal:</label>
             <input type="text" id="criminal">
+        </fieldset>
+        <fieldset class="noteForm__note">
+            <label for="noteText">Note:</label>
+            <input type="text" id="noteText" size="65" >
         </fieldset>
         <button id="saveNote">Save Note</button>
     `
