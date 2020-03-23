@@ -1,5 +1,77 @@
+/* Entire top section of the DOM */
+
 .filters {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 0.5rem 0;
+}
+
+/* Select bar that filters the criminals*/
+
+#crimeSelect {
+    border: none;
+    border-radius: .3rem;
+    padding: 1rem 15rem 1rem 1rem;
+    margin: 1rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+/* The form that allows you to add a new note */
+
+.noteFormContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    /* border: black 2px solid; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(47, 143, 172);
+    border-radius: .3rem;
+    margin: 0 auto;
+    width: 84.5%;
+}
+
+.noteForm__criminal {
+    border: none;
+    flex-basis: 25%;
+}
+
+.noteForm__note {
+    border: none;
+    flex-basis: 50%;
+}
+
+#saveNote {
+    border: none;
+    border-radius: .3rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Baloo 2', cursive;
+    flex-basis:  10%;
+}
+
+/* Buttons that show the notes */
+
+.noteButtonContainer{
+    display: flex;
+    background-color: rgb(47, 143, 172);
+    border-radius: .3rem;
+}
+
+#showAllNotes {
+    border: none;
+    border-radius: .3rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+#showNoteForm {
+    border: none;
+    border-radius: .3rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Baloo 2', cursive;
 }

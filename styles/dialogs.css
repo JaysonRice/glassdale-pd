@@ -1,0 +1,32 @@
+#associateDialog {
+    border: rgb(0, 113, 147) 5px solid;
+    border-radius: .3rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.associateDetails {
+    font-family: 'Baloo 2', cursive;
+}
+
+.button--close {
+    border: black 2px solid;
+    border-radius: .3rem;
+    padding: 1rem 5rem;
+    font-family: 'Baloo 2', cursive;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-family: 'Baloo 2', cursive;
+    transition: all .2s ease-in-out;
+}
+
+.button--close:hover {
+    color: rgb(0, 113, 147);
+    border: rgb(0, 113, 147) 2px solid;
+    background-color: whitesmoke
+}
+
+.informationBreak {
+    margin: 0.4rem 0;
+    border: dashed 1px rgb(0, 113, 147);
+}
