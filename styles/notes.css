@@ -1,3 +1,10 @@
 .invisible {
     display:none;
 }
+
+.note {
+    margin-top: 1rem;
+    background-color: rgb(47, 143, 172);
+    padding: 1rem;
+    border-radius: 10px;
+}

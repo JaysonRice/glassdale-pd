@@ -16,10 +16,6 @@
     transition: all .2s ease-in-out;
 }
 
-/* .criminal:hover {
-    transform: scale(1.03);
-} */
-
 /* Criminal card details */
 
 .criminal__name {

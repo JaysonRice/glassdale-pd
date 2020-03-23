@@ -23,7 +23,6 @@
 .noteFormContainer {
     display: flex;
     flex-wrap: nowrap;
-    /* border: black 2px solid; */
     align-items: center;
     justify-content: center;
     font-family: 'Baloo 2', cursive;
@@ -52,7 +51,17 @@
     flex-basis:  10%;
 }
 
-/* Buttons that show the notes */
+/* Buttons at the top of the DOM that filter/render different things*/
+
+.filter__button {
+    border: none;
+    border-radius: .3rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+/* Button container that show the notes */
 
 .noteButtonContainer{
     display: flex;
@@ -60,18 +69,3 @@
     border-radius: .3rem;
 }
 
-#showAllNotes {
-    border: none;
-    border-radius: .3rem;
-    padding: 1rem;
-    margin: 1rem;
-    font-family: 'Baloo 2', cursive;
-}
-
-#showNoteForm {
-    border: none;
-    border-radius: .3rem;
-    padding: 1rem;
-    margin: 1rem;
-    font-family: 'Baloo 2', cursive;
-}

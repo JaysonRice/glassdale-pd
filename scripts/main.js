@@ -7,6 +7,9 @@ import NoteForm from "./notes/NoteForm.js"
 import { NotesList } from "./notes/NotesList.js"
 import "./criminals/KnownAssociatesDialog.js"
 import { DisplayNoteFormButton } from "./notes/DisplayNoteFormButton.js"
+import "./witnesses/WitnessList.js"
+import { WitnessStatementButton } from "./witnesses/WitnessStatementButton.js"
+
 getCriminals().then(CriminalList)
 
 // first get all convictions, THEN create the conviction dropdown
@@ -16,3 +19,4 @@ DisplayNotesButton()
 DisplayNoteFormButton()
 NoteForm()
 NotesList()
+WitnessStatementButton()
