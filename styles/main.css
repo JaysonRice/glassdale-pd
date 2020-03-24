@@ -2,6 +2,7 @@
 @import "./filter.css";
 @import "./notes.css";
 @import "./dialogs.css";
+@import "./statements.css";
 
 body {
     background-color: rgb(0, 113, 147);
@@ -25,4 +26,9 @@ h1, h2, h3, h4 , h5 {
 
 p {
     font-family: 'Baloo 2', cursive;
+    font-size: 80%;
+}
+
+.invisible {
+    display:none;
 }

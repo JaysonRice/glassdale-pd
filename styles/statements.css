@@ -1,0 +1,14 @@
+.statementContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.statement {
+    flex-basis: 28%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0.5rem;
+    border: double 5px rgb(47, 143, 172);
+    background-color: rgb(102, 175, 197);
+}
