@@ -10,13 +10,14 @@ import { DisplayNoteFormButton } from "./notes/DisplayNoteFormButton.js"
 import "./witnesses/WitnessList.js"
 import { WitnessStatementButton } from "./witnesses/WitnessStatementButton.js"
 
-getCriminals().then(CriminalList)
+getCriminals()
+    .then(CriminalList)
+    .then(NotesList)
+    .then(NoteForm)
 
 // first get all convictions, THEN create the conviction dropdown
 getConvictions().then(ConvictionSelect)
 
 DisplayNotesButton()
 DisplayNoteFormButton()
-NoteForm()
-NotesList()
 WitnessStatementButton()
