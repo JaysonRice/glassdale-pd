@@ -2,12 +2,6 @@
   "notes": [
     {
       "id": 1,
-      "noteText": "This person seems suspicious",
-      "timestamp": 1584382255712,
-      "criminal": 10
-    },
-    {
-      "id": 1,
       "noteText": "This person likes chocolate too much",
       "timestamp": 1584382255714,
       "criminal": 12
@@ -17,6 +11,12 @@
       "criminal": 95,
       "timestamp": 1585066958342,
       "id": 2
+    },
+    {
+      "noteText": "Loves wastin' dat cheddar",
+      "criminal": 49,
+      "timestamp": 1585081650850,
+      "id": 3
     }
   ]
 }

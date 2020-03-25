@@ -16,7 +16,8 @@ getCriminals()
     .then(NoteForm)
 
 // first get all convictions, THEN create the conviction dropdown
-getConvictions().then(ConvictionSelect)
+getConvictions()
+    .then(ConvictionSelect)
 
 DisplayNotesButton()
 DisplayNoteFormButton()

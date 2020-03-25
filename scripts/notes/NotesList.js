@@ -1,4 +1,4 @@
-import { getNotes, useNotes } from "./NotesProvider.js"
+import { getNotes, useNotes, deleteNote } from "./NotesProvider.js"
 import { Note } from "./Note.js"
 import { useCriminals } from "../criminals/CriminalProvider.js"
 
@@ -7,6 +7,13 @@ const eventHub = document.querySelector(".container")
 
 
 let visibility = false
+
+contentTarget.addEventListener("click", clickEvent => {
+    if (clickEvent.target.id.startsWith("deleteNote--")) {
+        const [_, noteId] = clickEvent.target.id.split("--")
+        deleteNote(noteId)
+    }
+})
 
 eventHub.addEventListener("noteStateChanged", customEvent => {
     render()
